@@ -15,7 +15,7 @@ public class Ejercicio04 {
         int gradosFar;
         System.out.println("Ingresa el número de grados centigrados a convertir: ");
         gradosCen = scan.nextInt();
-        gradosFar =32 + (9 * gradosCen / 5);
+        gradosFar = 32 + (9 * gradosCen / 5);
         
         System.out.println(gradosCen+ " C° equivale a "+gradosFar+" F°.");
     }

@@ -23,7 +23,7 @@ public class Ejercicio01 {
             num2 = scan.nextInt(); // se lee por teclado la segunda variable
             
         int suma = num1 + num2; // se suman los datos ingresados 
-        System.out.println("El total es de " + suma); // se entrega el resultado al usuario
+        System.out.println("El total es de " + suma); // se entrega el resultado al usuario por pantalla.
         
     }
     

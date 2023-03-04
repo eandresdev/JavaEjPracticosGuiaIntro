@@ -16,9 +16,9 @@ public class Ejercicio03 {
         System.out.println("Ingresa una palabra o frase: ");
         frase = scan.nextLine(); // colocandole solo el next() te toma solo la primer palabra ingresada, con el nextLine te toma la linea completa
         
-        System.out.println(frase.toUpperCase());
+        System.out.println(frase.toUpperCase());// mayusculas a traves del metodo toUppercase
         System.out.println("----------------------------------");
-        System.out.println(frase.toLowerCase());
+        System.out.println(frase.toLowerCase());// minisculas a traves del metodo toLowercase
     }
     
 }

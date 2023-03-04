@@ -11,12 +11,12 @@ public class Ejercicio05 {
             doble, el triple y la raíz cuadrada de ese número. Nota: investigar la función Math.sqrt().*/
         Scanner scan = new Scanner(System.in);
         int num;
-        System.out.println("Hola, dime un número: ");
+        System.out.println("Hola, por favor ingresa un número: ");
         num= scan.nextInt();
         
-        System.out.println("El doble de tu número es: "+num*2);
-        System.out.println("El triple de tu número es: "+num*3);
-        System.out.println("La raiz cuadrada de tu número es: "+Math.sqrt(num));
+        System.out.println("El doble de tu número es: "+ num*2);
+        System.out.println("El triple de tu número es: "+ num*3);
+        System.out.println("La raiz cuadrada de tu número es: "+ Math.sqrt(num)); // Math.sqrt(num) retorna la raiz cuadrada de un numero.
         
     }
 }
