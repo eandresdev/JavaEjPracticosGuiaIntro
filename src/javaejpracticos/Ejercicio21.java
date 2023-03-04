@@ -18,7 +18,7 @@ public class Ejercicio21 {
         
         int [][] matrizM = new int[10][10];
         int [][] matrizP = new int[3][3];
-        
+        System.out.println("------------------");
         rellenarM(matrizM);
         mostrarM(matrizM);
         rellenarP(matrizP);
